@@ -1,0 +1,21 @@
+.svgContainer svg{
+	box-sizing: content-box;
+	line-height: 0;
+	
+}
+.svgContainer text {
+	line-height: 1em;
+}
+.svgContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+@media (min-width: 800px) {
+	.popups > div {
+		display: none;
+	}
+}

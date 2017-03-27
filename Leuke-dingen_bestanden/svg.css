@@ -1,0 +1,1719 @@
+body.svgpage {
+  background: #d2e4eb url("../../images/bg_svg.png") repeat scroll 0 0;
+}
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes counterclockwise {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+@keyframes counterclockwise {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes clockwise {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes clockwise {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.mfp-content > div {
+  padding: 0 0 20px 0;
+  max-width: 306px;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(50, 50, 50, 0.25);
+}
+.contents img {
+  width: 100%;
+  height: auto;
+}
+.contents h1,
+.contents p {
+  width: 90%;
+  margin: auto;
+}
+.mfp-content a,
+.mfp-content .thumbnail {
+  display: none;
+}
+.mfp-bg {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+button.mfp-close,
+button.mfp-arrow {
+  background: #fff;
+  border-radius: 100%;
+}
+.mfp-close {
+  right: 5px;
+  top: 5px;
+}
+.routelijst {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.routelijst .wrapper {
+  float: right;
+  width: 300px;
+  padding: 20px;
+  background: #ffb602;
+  border: 2px solid #fff;
+  border-radius: 9px;
+  box-shadow: 0px 0px 10px 2px rgba(50, 50, 50, 0.25);
+}
+.route .cls-5 {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.route .poi-1,
+.route .poi-1a,
+.route .poi-2,
+.route .poi-3,
+.route .poi-3a,
+.route .poi-4,
+.route .poi-4a,
+.route .poi-4b,
+.route .poi-5,
+.route .poi-6,
+.route .poi-6a,
+.route .poi-7,
+.route .poi-7a,
+.route .poi-8 {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.route .poi-1:hover,
+.route .poi-1a:hover,
+.route .poi-2:hover,
+.route .poi-3:hover,
+.route .poi-3a:hover,
+.route .poi-4:hover,
+.route .poi-4a:hover,
+.route .poi-4b:hover,
+.route .poi-5:hover,
+.route .poi-6:hover,
+.route .poi-6a:hover,
+.route .poi-7:hover,
+.route .poi-7a:hover,
+.route .poi-8:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.route .poi-1:hover .circle,
+.route .poi-1a:hover .circle,
+.route .poi-2:hover .circle,
+.route .poi-3:hover .circle,
+.route .poi-3a:hover .circle,
+.route .poi-4:hover .circle,
+.route .poi-4a:hover .circle,
+.route .poi-4b:hover .circle,
+.route .poi-5:hover .circle,
+.route .poi-6:hover .circle,
+.route .poi-6a:hover .circle,
+.route .poi-7:hover .circle,
+.route .poi-7a:hover .circle,
+.route .poi-8:hover .circle {
+  fill: #43b7e8;
+}
+.polikliniek .cls-1,
+.polikliniek .cls-12,
+.polikliniek .cls-23,
+.polikliniek .cls-8 {
+  fill: none;
+}
+.polikliniek .cls-2 {
+  fill: #d2e4eb;
+}
+.polikliniek .cls-3,
+.polikliniek .cls-4,
+.polikliniek .cls-5 {
+  fill: #fff;
+}
+.polikliniek .cls-3 {
+  opacity: 0.2;
+}
+.polikliniek .cls-4 {
+  opacity: 0;
+}
+.polikliniek .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.polikliniek .cls-22,
+.polikliniek .cls-7 {
+  fill: #505050;
+}
+.polikliniek .cls-8 {
+  stroke: #62328a;
+  stroke-linecap: round;
+  stroke-width: 54px;
+}
+.polikliniek .cls-23,
+.polikliniek .cls-8 {
+  stroke-linejoin: round;
+}
+.polikliniek .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.polikliniek .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.polikliniek .cls-11 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.polikliniek .cls-12 {
+  stroke: #505050;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+.polikliniek .cls-13 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.polikliniek .cls-14 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.polikliniek .cls-15 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.polikliniek .cls-16 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.polikliniek .cls-17 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.polikliniek .cls-18 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.polikliniek .cls-19 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.polikliniek .cls-20 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.polikliniek .cls-21 {
+  -webkit-clip-path: url(#clip-path-12);
+          clip-path: url(#clip-path-12);
+}
+.polikliniek .cls-22 {
+  font-size: 0.85em;
+}
+.polikliniek .cls-23 {
+  stroke: #fff;
+}
+.polikliniek .pathmain {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
+  -webkit-animation: dash 3s linear forwards;
+          animation: dash 3s linear forwards;
+}
+.polikliniek .path3 {
+  stroke-dasharray: 201.748;
+  stroke-dashoffset: 201.748;
+  -webkit-animation: dash 0.6s linear forwards;
+          animation: dash 0.6s linear forwards;
+  -webkit-animation-delay: 01.068s;
+          animation-delay: 01.068s;
+}
+.polikliniek .path7 {
+  stroke-dasharray: 207;
+  stroke-dashoffset: 207;
+  -webkit-animation: dash 0.6s linear forwards;
+          animation: dash 0.6s linear forwards;
+  -webkit-animation-delay: 03.074s;
+          animation-delay: 03.074s;
+}
+.polikliniek .poi-1,
+.polikliniek .poi-2,
+.polikliniek .poi-3,
+.polikliniek .poi-3a,
+.polikliniek .poi-4,
+.polikliniek .poi-5,
+.polikliniek .poi-6,
+.polikliniek .poi-7 {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.polikliniek .poi-1:hover,
+.polikliniek .poi-2:hover,
+.polikliniek .poi-3:hover,
+.polikliniek .poi-3a:hover,
+.polikliniek .poi-4:hover,
+.polikliniek .poi-5:hover,
+.polikliniek .poi-6:hover,
+.polikliniek .poi-7:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.polikliniek #poi-1 {
+  -webkit-animation-delay: 0.207s;
+          animation-delay: 0.207s;
+}
+.polikliniek #poi-2 {
+  -webkit-animation-delay: 0.755s;
+          animation-delay: 0.755s;
+}
+.polikliniek #poi-3 {
+  -webkit-animation-delay: 1.236s;
+          animation-delay: 1.236s;
+}
+.polikliniek #poi-3a {
+  -webkit-animation-delay: 1.630s;
+          animation-delay: 1.630s;
+}
+.polikliniek #poi-4 {
+  -webkit-animation-delay: 1.707s;
+          animation-delay: 1.707s;
+}
+.polikliniek #poi-5 {
+  -webkit-animation-delay: 2.188s;
+          animation-delay: 2.188s;
+}
+.polikliniek #poi-6 {
+  -webkit-animation-delay: 2.670s;
+          animation-delay: 2.670s;
+}
+.polikliniek #poi-7 {
+  -webkit-animation-delay: 3.239s;
+          animation-delay: 3.239s;
+}
+.polikliniek #poi-7a,
+.polikliniek #poi-7b,
+.polikliniek #poi-7c,
+.polikliniek #poi-7d {
+  -webkit-animation-delay: 3.699s;
+          animation-delay: 3.699s;
+}
+.polikliniek .cls-6,
+.polikliniek .caption {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.dagziekenhuis .cls-1,
+.dagziekenhuis .cls-11,
+.dagziekenhuis .cls-15,
+.dagziekenhuis .cls-17,
+.dagziekenhuis .cls-20,
+.dagziekenhuis .cls-22,
+.dagziekenhuis .cls-24,
+.dagziekenhuis .cls-8 {
+  fill: none;
+}
+.dagziekenhuis .cls-2 {
+  fill: #d2e4eb;
+}
+.dagziekenhuis .cls-12,
+.dagziekenhuis .cls-3,
+.dagziekenhuis .cls-4,
+.dagziekenhuis .cls-5 {
+  fill: #fff;
+}
+.dagziekenhuis .cls-3 {
+  opacity: 0.2;
+}
+.dagziekenhuis .cls-4 {
+  opacity: 0;
+}
+.dagziekenhuis .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.dagziekenhuis .cls-23,
+.dagziekenhuis .cls-7 {
+  fill: #505050;
+}
+.dagziekenhuis .cls-8 {
+  stroke: #00a5b2;
+  stroke-width: 54px;
+}
+.dagziekenhuis .cls-20,
+.dagziekenhuis .cls-22,
+.dagziekenhuis .cls-8 {
+  stroke-linecap: round;
+}
+.dagziekenhuis .cls-20,
+.dagziekenhuis .cls-22,
+.dagziekenhuis .cls-24,
+.dagziekenhuis .cls-8 {
+  stroke-linejoin: round;
+}
+.dagziekenhuis .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.dagziekenhuis .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.dagziekenhuis .cls-11,
+.dagziekenhuis .cls-12,
+.dagziekenhuis .cls-15,
+.dagziekenhuis .cls-20,
+.dagziekenhuis .cls-22 {
+  stroke: #505050;
+}
+.dagziekenhuis .cls-13 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.dagziekenhuis .cls-14 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.dagziekenhuis .cls-15,
+.dagziekenhuis .cls-17,
+.dagziekenhuis .cls-22 {
+  stroke-width: 2px;
+}
+.dagziekenhuis .cls-16 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.dagziekenhuis .cls-17 {
+  stroke: #000;
+}
+.dagziekenhuis .cls-18 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.dagziekenhuis .cls-19 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.dagziekenhuis .cls-20 {
+  stroke-width: 3px;
+}
+.dagziekenhuis .cls-21 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.dagziekenhuis .cls-23 {
+  font-size: 0.85em;
+}
+.dagziekenhuis .cls-24 {
+  stroke: #fff;
+}
+.dagziekenhuis .pathmain {
+  stroke-dasharray: 532.3;
+  stroke-dashoffset: 532.3;
+  -webkit-animation: dash 1.77s linear forwards;
+          animation: dash 1.77s linear forwards;
+}
+.dagziekenhuis .path2 {
+  stroke-dasharray: 675.701;
+  stroke-dashoffset: 675.701;
+  -webkit-animation: dash 2.25s linear forwards;
+          animation: dash 2.25s linear forwards;
+  -webkit-animation-delay: 0.634s;
+          animation-delay: 0.634s;
+}
+.dagziekenhuis #poi-1 {
+  -webkit-animation-delay: 0.396s;
+          animation-delay: 0.396s;
+}
+.dagziekenhuis #poi-1a {
+  -webkit-animation-delay: 1.108s;
+          animation-delay: 1.108s;
+}
+.dagziekenhuis #poi-2 {
+  -webkit-animation-delay: 0.871s;
+          animation-delay: 0.871s;
+}
+.dagziekenhuis #poi-3 {
+  -webkit-animation-delay: 1.346s;
+          animation-delay: 1.346s;
+}
+.dagziekenhuis #poi-3a {
+  -webkit-animation-delay: 1.698s;
+          animation-delay: 1.698s;
+}
+.dagziekenhuis #poi-4 {
+  -webkit-animation-delay: 01.838s;
+          animation-delay: 01.838s;
+}
+.dagziekenhuis #poi-4a {
+  -webkit-animation-delay: 2.217s;
+          animation-delay: 2.217s;
+}
+.dagziekenhuis #poi-4b {
+  -webkit-animation-delay: 2.724s;
+          animation-delay: 2.724s;
+}
+.dagziekenhuis #poi-5 {
+  -webkit-animation-delay: 02.320s;
+          animation-delay: 02.320s;
+}
+.dagziekenhuis #poi-6 {
+  -webkit-animation-delay: 02.835s;
+          animation-delay: 02.835s;
+}
+.dagziekenhuis #poi-7 {
+  -webkit-animation-delay: 3.057s;
+          animation-delay: 3.057s;
+}
+.dagziekenhuis #poi-8 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.dagziekenhuis .cls-6 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.dagziekenhuis .caption {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.dagziekenhuisamc .cls-1,
+.dagziekenhuisamc .cls-13,
+.dagziekenhuisamc .cls-20,
+.dagziekenhuisamc .cls-24,
+.dagziekenhuisamc .cls-8 {
+  fill: none;
+}
+.dagziekenhuisamc .cls-2 {
+  fill: #d2e4eb;
+}
+.dagziekenhuisamc .cls-3,
+.dagziekenhuisamc .cls-4,
+.dagziekenhuisamc .cls-5 {
+  fill: #fff;
+}
+.dagziekenhuisamc .cls-3 {
+  opacity: 0.2;
+}
+.dagziekenhuisamc .cls-4 {
+  opacity: 0;
+}
+.dagziekenhuisamc .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.dagziekenhuisamc .cls-23,
+.dagziekenhuisamc .cls-7 {
+  fill: #505050;
+}
+.dagziekenhuisamc .cls-8 {
+  stroke: #ff611b;
+  stroke-width: 54px;
+}
+.dagziekenhuisamc .cls-13,
+.dagziekenhuisamc .cls-8 {
+  stroke-linecap: round;
+}
+.dagziekenhuisamc .cls-13,
+.dagziekenhuisamc .cls-24,
+.dagziekenhuisamc .cls-8 {
+  stroke-linejoin: round;
+}
+.dagziekenhuisamc .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.dagziekenhuisamc .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.dagziekenhuisamc .cls-11 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.dagziekenhuisamc .cls-12 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.dagziekenhuisamc .cls-13,
+.dagziekenhuisamc .cls-20 {
+  stroke: #505050;
+}
+.dagziekenhuisamc .cls-13 {
+  stroke-width: 3px;
+}
+.dagziekenhuisamc .cls-14 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.dagziekenhuisamc .cls-15 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.dagziekenhuisamc .cls-16 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.dagziekenhuisamc .cls-17 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.dagziekenhuisamc .cls-18 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.dagziekenhuisamc .cls-19 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.dagziekenhuisamc .cls-20 {
+  stroke-miterlimit: 10;
+}
+.dagziekenhuisamc .cls-21 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.dagziekenhuisamc .cls-22 {
+  -webkit-clip-path: url(#clip-path-12);
+          clip-path: url(#clip-path-12);
+}
+.dagziekenhuisamc .cls-23 {
+  font-size: 0.85em;
+}
+.dagziekenhuisamc .cls-24 {
+  stroke: #fff;
+}
+.dagziekenhuisamc .pathmain {
+  stroke-dasharray: 936;
+  stroke-dashoffset: 936;
+  -webkit-animation: dash 1.77s linear forwards;
+          animation: dash 1.77s linear forwards;
+}
+.dagziekenhuisamc .path3 {
+  stroke-dasharray: 648;
+  stroke-dashoffset: 648;
+  -webkit-animation: dash 1.77s linear forwards;
+          animation: dash 1.77s linear forwards;
+}
+.dagziekenhuisamc .path4 {
+  stroke-dasharray: 180;
+  stroke-dashoffset: 180;
+  -webkit-animation: dash 1.77s linear forwards;
+          animation: dash 1.77s linear forwards;
+}
+.meerderedagen .cls-1,
+.meerderedagen .cls-10,
+.meerderedagen .cls-23,
+.meerderedagen .cls-8 {
+  fill: none;
+}
+.meerderedagen .cls-2 {
+  fill: #d2e4eb;
+}
+.meerderedagen .cls-3,
+.meerderedagen .cls-4,
+.meerderedagen .cls-5 {
+  fill: #fff;
+}
+.meerderedagen .cls-3 {
+  opacity: 0.2;
+}
+.meerderedagen .cls-4 {
+  opacity: 0;
+}
+.meerderedagen .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.meerderedagen .cls-17,
+.meerderedagen .cls-22,
+.meerderedagen .cls-7 {
+  fill: #505050;
+}
+.meerderedagen .cls-8 {
+  stroke: #98c21f;
+  stroke-linecap: round;
+  stroke-width: 54px;
+}
+.meerderedagen .cls-23,
+.meerderedagen .cls-8 {
+  stroke-linejoin: round;
+}
+.meerderedagen .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.meerderedagen .cls-10 {
+  stroke: #505050;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.meerderedagen .cls-11 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.meerderedagen .cls-12 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.meerderedagen .cls-13 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.meerderedagen .cls-14 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.meerderedagen .cls-15 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.meerderedagen .cls-16 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.meerderedagen .cls-17 {
+  fill-rule: evenodd;
+}
+.meerderedagen .cls-18 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.meerderedagen .cls-19 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.meerderedagen .cls-20 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.meerderedagen .cls-21 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.meerderedagen .cls-22 {
+  font-size: 0.85em;
+}
+.meerderedagen .cls-23 {
+  stroke: #fff;
+}
+.meerderedagen .pathmain {
+  stroke-dasharray: 999;
+  stroke-dashoffset: 999;
+  -webkit-animation: dash 3.21s linear forwards;
+          animation: dash 3.21s linear forwards;
+}
+.meerderedagen .path1 {
+  stroke-dasharray: 207;
+  stroke-dashoffset: 207;
+  -webkit-animation: dash 0.68s linear forwards;
+          animation: dash 0.68s linear forwards;
+  -webkit-animation-delay: 0.374s;
+          animation-delay: 0.374s;
+}
+.meerderedagen .path3 {
+  stroke-dasharray: 207;
+  stroke-dashoffset: 207;
+  -webkit-animation: dash 0.68s linear forwards;
+          animation: dash 0.68s linear forwards;
+  -webkit-animation-delay: 1.136s;
+          animation-delay: 1.136s;
+}
+.meerderedagen .path4 {
+  stroke-dasharray: 351;
+  stroke-dashoffset: 351;
+  -webkit-animation: dash 1.17s linear forwards;
+          animation: dash 1.17s linear forwards;
+  -webkit-animation-delay: 01.607s;
+          animation-delay: 01.607s;
+}
+.leukedingen .cls-1,
+.leukedingen .cls-4 {
+  fill: none;
+}
+.leukedingen .cls-2 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.leukedingen .cls-3 {
+  fill: #505050;
+}
+.leukedingen .cls-4,
+.leukedingen .cls-9 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+}
+.leukedingen .cls-4 {
+  stroke-linecap: round;
+  stroke-width: 32px;
+}
+.leukedingen .cls-5 {
+  fill: #d2e4eb;
+}
+.leukedingen .cls-8 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.leukedingen .cls-9 {
+  stroke-width: 2px;
+  fill: url(#play-button);
+}
+.leukedingen .cls-10 {
+  fill: #fff;
+}
+.leukedingen .cls-4 {
+  stroke-dasharray: 447.962px;
+  stroke-dashoffset: 447.962px;
+  -webkit-animation: dash 2s linear forwards;
+          animation: dash 2s linear forwards;
+}
+.leukedingen #leukedingenSvg,
+.leukedingen .go-clockwise {
+  -webkit-animation: clockwise 8s linear;
+          animation: clockwise 8s linear;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.leukedingen .go-counterclockwise {
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation: counterclockwise 8s linear;
+          animation: counterclockwise 8s linear;
+}
+.leukedingen .l1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.leukedingen .l2 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.leukedingen .l3,
+.leukedingen .p1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.leukedingen .l4,
+.leukedingen .p2 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.leukedingen .l5,
+.leukedingen .p3 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.leukedingen .l6,
+.leukedingen .p4 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+.leukedingen .l7,
+.leukedingen .p5 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.leukedingen .l8,
+.leukedingen .p6 {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+.leukedingen .l9,
+.leukedingen .p7 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.leukedingen .l10,
+.leukedingen .p8 {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+.leukedingen .l11,
+.leukedingen .p9 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.leukedingen .l12,
+.leukedingen .p10 {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+.leukedingen .l13,
+.leukedingen .p11 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+.leukedingen .l14,
+.leukedingen .p12 {
+  -webkit-animation-delay: 6.5s;
+          animation-delay: 6.5s;
+}
+.leukedingen .l15,
+.leukedingen .p13 {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+.leukedingen .l16,
+.leukedingen .p14 {
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
+}
+.leukedingen .p15 {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+.leukedingen .p16 {
+  -webkit-animation-delay: 8.5s;
+          animation-delay: 8.5s;
+}
+.leukedingen .cls-3 {
+  -webkit-animation-delay: 8.5s;
+          animation-delay: 8.5s;
+}
+.leukedingen .p1,
+.leukedingen .p2,
+.leukedingen .p3,
+.leukedingen .p4,
+.leukedingen .p5,
+.leukedingen .p6,
+.leukedingen .p7,
+.leukedingen .p8,
+.leukedingen .p9,
+.leukedingen .p10,
+.leukedingen .p11,
+.leukedingen .p12,
+.leukedingen .p13,
+.leukedingen .p14,
+.leukedingen .p15,
+.leukedingen .p16 {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+.leukedingen .p1:hover,
+.leukedingen .p2:hover,
+.leukedingen .p3:hover,
+.leukedingen .p4:hover,
+.leukedingen .p5:hover,
+.leukedingen .p6:hover,
+.leukedingen .p7:hover,
+.leukedingen .p8:hover,
+.leukedingen .p9:hover,
+.leukedingen .p10:hover,
+.leukedingen .p11:hover,
+.leukedingen .p12:hover,
+.leukedingen .p13:hover,
+.leukedingen .p14:hover,
+.leukedingen .p15:hover,
+.leukedingen .p16:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+.leukedingen .p1 {
+  -webkit-transform-origin: 88.6px 393.7px;
+          transform-origin: 88.6px 393.7px;
+}
+.leukedingen .p2 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p3 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p4 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p5 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p6 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p7 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p8 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p9 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p10 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p11 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p12 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p13 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p14 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p15 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.leukedingen .p16 {
+  -webkit-transform-origin: 115.1px 585.3px;
+          transform-origin: 115.1px 585.3px;
+}
+.plattegrond .cls-1,
+.plattegrond .cls-14 {
+  fill: none;
+}
+.plattegrond .cls-2 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.plattegrond .cls-20,
+.plattegrond .cls-3 {
+  fill: #fff;
+}
+.plattegrond .cls-21,
+.plattegrond .cls-4 {
+  fill: #505050;
+}
+.plattegrond .cls-5 {
+  fill: gray;
+}
+.plattegrond .cls-6 {
+  isolation: isolate;
+}
+.plattegrond .cls-7 {
+  fill: url(#Naamloos_verloop_34);
+}
+.plattegrond .cls-8 {
+  fill: #e6e7e8;
+}
+.plattegrond .cls-9 {
+  fill: #d1d3d4;
+}
+.plattegrond .cls-10,
+.plattegrond .cls-17,
+.plattegrond .cls-19,
+.plattegrond .cls-29 {
+  mix-blend-mode: multiply;
+}
+.plattegrond .cls-10 {
+  fill: url(#Naamloos_verloop_13);
+}
+.plattegrond .cls-11 {
+  fill: #f1f2f2;
+}
+.plattegrond .cls-12 {
+  fill: #a7a9ac;
+}
+.plattegrond .cls-13 {
+  fill: #bcbec0;
+}
+.plattegrond .cls-14 {
+  stroke: #505050;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.plattegrond .cls-15 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.plattegrond .cls-16 {
+  fill: url(#Naamloos_verloop_25);
+}
+.plattegrond .cls-17 {
+  fill: url(#Naamloos_verloop_15);
+}
+.plattegrond .cls-18 {
+  fill: #ff854f;
+}
+.plattegrond .cls-19 {
+  fill: url(#Naamloos_verloop_16);
+}
+.plattegrond .cls-20 {
+  opacity: 0.5;
+}
+.plattegrond .cls-21 {
+  font-size: 0.7em;
+  letter-spacing: 0.02em;
+}
+.plattegrond .cls-22 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.plattegrond .cls-23 {
+  fill: #009244;
+}
+.plattegrond .cls-24 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.plattegrond .cls-25 {
+  fill: #98c21f;
+}
+.plattegrond .cls-26 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.plattegrond .cls-27 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.plattegrond .cls-28 {
+  fill: #5468c1;
+}
+.plattegrond .cls-30 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.plattegrond .cls-31 {
+  fill: #00a5b2;
+}
+.plattegrond .cls-32 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.plattegrond .cls-33 {
+  fill: #ffb602;
+}
+.plattegrond .cls-34 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.plattegrond .cls-35 {
+  fill: #ce4785;
+}
+.plattegrond .cls-36 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.plattegrond .cls-37 {
+  fill: #43b7e8;
+}
+.plattegrond .cls-38 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.plattegrond .cls-39 {
+  fill: #f94f5e;
+}
+.plattegrond .vloer3 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .muur3 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .vloer7 {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .muur7 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .vloer8 {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .muur8 {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+.plattegrond .iTieners,
+.plattegrond .cTieners {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.plattegrond .iOncologie,
+.plattegrond .cOncologie {
+  -webkit-animation-delay: 4.2s;
+          animation-delay: 4.2s;
+}
+.plattegrond .iGroteKinderen,
+.plattegrond .cGroteKinderen {
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
+}
+.plattegrond .iEmma,
+.plattegrond .cEmma {
+  -webkit-animation-delay: 4.6s;
+          animation-delay: 4.6s;
+}
+.plattegrond .iDagziekenhuis,
+.plattegrond .cDagziekenhuis {
+  -webkit-animation-delay: 4.8s;
+          animation-delay: 4.8s;
+}
+.plattegrond .iIntensiveCare,
+.plattegrond .cIntensiveCare {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.plattegrond .iStaf,
+.plattegrond .cStaf {
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+.plattegrond .iChirurgie,
+.plattegrond .cChirurgie {
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+.plattegrond .iNeonatologie,
+.plattegrond .cNeonatologie {
+  -webkit-animation-delay: 5.6s;
+          animation-delay: 5.6s;
+}
+.plattegrond .poi-1 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.plattegrond .poi-2 {
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
+}
+.plattegrond .poi-3 {
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+.plattegrond .poi-4 {
+  -webkit-animation-delay: 5.3s;
+          animation-delay: 5.3s;
+}
+.plattegrond .poi-5 {
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+.plattegrond .poi-6 {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+.plattegrond .poi-7 {
+  -webkit-animation-delay: 5.6s;
+          animation-delay: 5.6s;
+}
+.plattegrond .poi-8 {
+  -webkit-animation-delay: 5.7s;
+          animation-delay: 5.7s;
+}
+.plattegrond .poi-9 {
+  -webkit-animation-delay: 5.8s;
+          animation-delay: 5.8s;
+}
+.plattegrond .poi-10 {
+  -webkit-animation-delay: 5.9s;
+          animation-delay: 5.9s;
+}
+.plattegrond .poi-11 {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+.plattegrond .iTieners,
+.plattegrond .iOncologie,
+.plattegrond .iGroteKinderen,
+.plattegrond .iEmma,
+.plattegrond .iDagziekenhuis,
+.plattegrond .iIntensiveCare,
+.plattegrond .iStaf,
+.plattegrond .iChirurgie,
+.plattegrond .iNeonatologie {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.plattegrond .iTieners:hover,
+.plattegrond .iOncologie:hover,
+.plattegrond .iGroteKinderen:hover,
+.plattegrond .iEmma:hover,
+.plattegrond .iDagziekenhuis:hover,
+.plattegrond .iIntensiveCare:hover,
+.plattegrond .iStaf:hover,
+.plattegrond .iChirurgie:hover,
+.plattegrond .iNeonatologie:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.plattegrond .poi-1,
+.plattegrond .poi-2,
+.plattegrond .poi-3,
+.plattegrond .poi-4,
+.plattegrond .poi-5,
+.plattegrond .poi-6,
+.plattegrond .poi-7,
+.plattegrond .poi-8,
+.plattegrond .poi-9,
+.plattegrond .poi-10,
+.plattegrond .poi-11 {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.plattegrond .poi-1:hover,
+.plattegrond .poi-2:hover,
+.plattegrond .poi-3:hover,
+.plattegrond .poi-4:hover,
+.plattegrond .poi-5:hover,
+.plattegrond .poi-6:hover,
+.plattegrond .poi-7:hover,
+.plattegrond .poi-8:hover,
+.plattegrond .poi-9:hover,
+.plattegrond .poi-10:hover,
+.plattegrond .poi-11:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+.m-dagziekenhuisamc .cls-1,
+.m-dagziekenhuisamc .cls-13,
+.m-dagziekenhuisamc .cls-20,
+.m-dagziekenhuisamc .cls-24,
+.m-dagziekenhuisamc .cls-8 {
+  fill: none;
+}
+.m-dagziekenhuisamc .cls-2 {
+  fill: #d2e4eb;
+}
+.m-dagziekenhuisamc .cls-3,
+.m-dagziekenhuisamc .cls-4,
+.m-dagziekenhuisamc .cls-5 {
+  fill: #fff;
+}
+.m-dagziekenhuisamc .cls-3 {
+  opacity: 0.2;
+}
+.m-dagziekenhuisamc .cls-4 {
+  opacity: 0;
+}
+.m-dagziekenhuisamc .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.m-dagziekenhuisamc .cls-23,
+.m-dagziekenhuisamc .cls-7 {
+  fill: #505050;
+}
+.m-dagziekenhuisamc .cls-8 {
+  stroke: #ff611b;
+  stroke-width: 54px;
+}
+.m-dagziekenhuisamc .cls-13,
+.m-dagziekenhuisamc .cls-8 {
+  stroke-linecap: round;
+}
+.m-dagziekenhuisamc .cls-13,
+.m-dagziekenhuisamc .cls-24,
+.m-dagziekenhuisamc .cls-8 {
+  stroke-linejoin: round;
+}
+.m-dagziekenhuisamc .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.m-dagziekenhuisamc .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.m-dagziekenhuisamc .cls-11 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.m-dagziekenhuisamc .cls-12 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.m-dagziekenhuisamc .cls-13,
+.m-dagziekenhuisamc .cls-20 {
+  stroke: #505050;
+}
+.m-dagziekenhuisamc .cls-13 {
+  stroke-width: 3px;
+}
+.m-dagziekenhuisamc .cls-14 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.m-dagziekenhuisamc .cls-15 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.m-dagziekenhuisamc .cls-16 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.m-dagziekenhuisamc .cls-17 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.m-dagziekenhuisamc .cls-18 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.m-dagziekenhuisamc .cls-19 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.m-dagziekenhuisamc .cls-20 {
+  stroke-miterlimit: 10;
+}
+.m-dagziekenhuisamc .cls-21 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.m-dagziekenhuisamc .cls-22 {
+  -webkit-clip-path: url(#clip-path-12);
+          clip-path: url(#clip-path-12);
+}
+.m-dagziekenhuisamc .cls-23 {
+  font-size: 0.85em;
+}
+.m-dagziekenhuisamc .cls-24 {
+  stroke: #fff;
+}
+.m-dagziekenhuis .cls-1,
+.m-dagziekenhuis .cls-11,
+.m-dagziekenhuis .cls-15,
+.m-dagziekenhuis .cls-19,
+.m-dagziekenhuis .cls-21,
+.m-dagziekenhuis .cls-23,
+.m-dagziekenhuis .cls-8 {
+  fill: none;
+}
+.m-dagziekenhuis .cls-2 {
+  fill: #d2e4eb;
+}
+.m-dagziekenhuis .cls-12,
+.m-dagziekenhuis .cls-3,
+.m-dagziekenhuis .cls-4,
+.m-dagziekenhuis .cls-5 {
+  fill: #fff;
+}
+.m-dagziekenhuis .cls-3 {
+  opacity: 0.2;
+}
+.m-dagziekenhuis .cls-4 {
+  opacity: 0;
+}
+.m-dagziekenhuis .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.m-dagziekenhuis .cls-22,
+.m-dagziekenhuis .cls-7 {
+  fill: #505050;
+}
+.m-dagziekenhuis .cls-8 {
+  stroke: #00a5b2;
+  stroke-width: 54px;
+}
+.m-dagziekenhuis .cls-19,
+.m-dagziekenhuis .cls-21,
+.m-dagziekenhuis .cls-8 {
+  stroke-linecap: round;
+}
+.m-dagziekenhuis .cls-19,
+.m-dagziekenhuis .cls-21,
+.m-dagziekenhuis .cls-23,
+.m-dagziekenhuis .cls-8 {
+  stroke-linejoin: round;
+}
+.m-dagziekenhuis .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.m-dagziekenhuis .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.m-dagziekenhuis .cls-11,
+.m-dagziekenhuis .cls-12,
+.m-dagziekenhuis .cls-15,
+.m-dagziekenhuis .cls-19,
+.m-dagziekenhuis .cls-21 {
+  stroke: #505050;
+}
+.m-dagziekenhuis .cls-11,
+.m-dagziekenhuis .cls-12,
+.m-dagziekenhuis .cls-15 {
+  stroke-miterlimit: 10;
+}
+.m-dagziekenhuis .cls-13 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.m-dagziekenhuis .cls-14 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.m-dagziekenhuis .cls-15,
+.m-dagziekenhuis .cls-21 {
+  stroke-width: 2px;
+}
+.m-dagziekenhuis .cls-16 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.m-dagziekenhuis .cls-17 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.m-dagziekenhuis .cls-18 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.m-dagziekenhuis .cls-19 {
+  stroke-width: 3px;
+}
+.m-dagziekenhuis .cls-20 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.m-dagziekenhuis .cls-22 {
+  font-size: 0.85em;
+}
+.m-meerderedagen .cls-1,
+.m-meerderedagen .cls-22,
+.m-meerderedagen .cls-8 {
+  fill: none;
+}
+.m-meerderedagen .cls-2 {
+  fill: #d2e4eb;
+}
+.m-meerderedagen .cls-3,
+.m-meerderedagen .cls-4,
+.m-meerderedagen .cls-5 {
+  fill: #fff;
+}
+.m-meerderedagen .cls-3 {
+  opacity: 0.2;
+}
+.m-meerderedagen .cls-4 {
+  opacity: 0;
+}
+.m-meerderedagen .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.m-meerderedagen .cls-16,
+.m-meerderedagen .cls-21,
+.m-meerderedagen .cls-7 {
+  fill: #505050;
+}
+.m-meerderedagen .cls-8 {
+  stroke: #98c21f;
+  stroke-linecap: round;
+  stroke-width: 54px;
+}
+.m-meerderedagen .cls-22,
+.m-meerderedagen .cls-8 {
+  stroke-linejoin: round;
+}
+.m-meerderedagen .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.m-meerderedagen .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.m-meerderedagen .cls-11 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.m-meerderedagen .cls-12 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.m-meerderedagen .cls-13 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.m-meerderedagen .cls-14 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.m-meerderedagen .cls-15 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.m-meerderedagen .cls-16 {
+  fill-rule: evenodd;
+}
+.m-meerderedagen .cls-17 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.m-meerderedagen .cls-18 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.m-meerderedagen .cls-19 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.m-meerderedagen .cls-20 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.m-meerderedagen .cls-21 {
+  font-size: 0.85em;
+}
+.m-polikliniek .cls-1,
+.m-polikliniek .cls-12,
+.m-polikliniek .cls-23,
+.m-polikliniek .cls-8 {
+  fill: none;
+}
+.m-polikliniek .cls-2 {
+  fill: #d2e4eb;
+}
+.m-polikliniek .cls-3,
+.m-polikliniek .cls-4,
+.m-polikliniek .cls-5 {
+  fill: #fff;
+}
+.m-polikliniek .cls-3 {
+  opacity: 0.2;
+}
+.m-polikliniek .cls-4 {
+  opacity: 0;
+}
+.m-polikliniek .cls-6 {
+  -webkit-filter: url(#AI_GaussianBlur_4);
+          filter: url(#AI_GaussianBlur_4);
+}
+.m-polikliniek .cls-22,
+.m-polikliniek .cls-24,
+.m-polikliniek .cls-7 {
+  fill: #505050;
+}
+.m-polikliniek .cls-8 {
+  stroke: #62328a;
+  stroke-linecap: round;
+  stroke-width: 54px;
+}
+.m-polikliniek .cls-23,
+.m-polikliniek .cls-8 {
+  stroke-linejoin: round;
+}
+.m-polikliniek .cls-9 {
+  -webkit-clip-path: url(#clip-path);
+          clip-path: url(#clip-path);
+}
+.m-polikliniek .cls-10 {
+  -webkit-clip-path: url(#clip-path-2);
+          clip-path: url(#clip-path-2);
+}
+.m-polikliniek .cls-11 {
+  -webkit-clip-path: url(#clip-path-3);
+          clip-path: url(#clip-path-3);
+}
+.m-polikliniek .cls-12 {
+  stroke: #505050;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+.m-polikliniek .cls-13 {
+  -webkit-clip-path: url(#clip-path-4);
+          clip-path: url(#clip-path-4);
+}
+.m-polikliniek .cls-14 {
+  -webkit-clip-path: url(#clip-path-5);
+          clip-path: url(#clip-path-5);
+}
+.m-polikliniek .cls-15 {
+  -webkit-clip-path: url(#clip-path-6);
+          clip-path: url(#clip-path-6);
+}
+.m-polikliniek .cls-16 {
+  -webkit-clip-path: url(#clip-path-7);
+          clip-path: url(#clip-path-7);
+}
+.m-polikliniek .cls-17 {
+  -webkit-clip-path: url(#clip-path-8);
+          clip-path: url(#clip-path-8);
+}
+.m-polikliniek .cls-18 {
+  -webkit-clip-path: url(#clip-path-9);
+          clip-path: url(#clip-path-9);
+}
+.m-polikliniek .cls-19 {
+  -webkit-clip-path: url(#clip-path-10);
+          clip-path: url(#clip-path-10);
+}
+.m-polikliniek .cls-20 {
+  -webkit-clip-path: url(#clip-path-11);
+          clip-path: url(#clip-path-11);
+}
+.m-polikliniek .cls-21 {
+  -webkit-clip-path: url(#clip-path-12);
+          clip-path: url(#clip-path-12);
+}
+.m-polikliniek .cls-22,
+.m-polikliniek .cls-24 {
+  font-size: 0.85em;
+}
+.m-polikliniek .cls-23 {
+  stroke: #fff;
+}
